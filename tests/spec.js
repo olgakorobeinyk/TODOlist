@@ -20,12 +20,6 @@ describe('TODO MVC homepage', function() {
         secondTask = "Second thing needs to be done";
 
 
-/*
-    beforeEach(function() {
-        browser.get('http://todomvc.com/examples/angularjs/#/');
-    });
-*/
-
     addTask = function (todoItem) {
 
         return newTodo.sendKeys(todoItem)
